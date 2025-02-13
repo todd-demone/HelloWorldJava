@@ -7,6 +7,6 @@ public class HelloWorld {
     }
 
     public int sum(int first, int second) {
-        return 42;
+        return first + second;
     }
 }
