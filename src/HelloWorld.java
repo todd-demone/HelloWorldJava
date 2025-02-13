@@ -5,9 +5,9 @@ public class HelloWorld {
 //        System.out.println("Hello, World!");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number: ");
-        int first = Integer.parseInt(scanner.next());
+        int first = scanner.nextInt();
         System.out.println("Enter a second number: ");
-        int second = Integer.parseInt(scanner.next());
+        int second =scanner.nextInt();
         HelloWorld obj = new HelloWorld();
         int result = obj.sum(first, second);
         System.out.printf("The sum of %d and %d is %d%n", first, second, result);
